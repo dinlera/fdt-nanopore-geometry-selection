@@ -28,6 +28,10 @@ Open access for academic and research use. Please cite the associated article if
 
 This Python script implements a fuzzy decision tree (FDT) to assist in selecting the optimal nanopore geometry based on three input criteria: charge sensitivity, size sensitivity, and trajectory impact. The model uses predefined fuzzy membership functions and a set of five decision rules to infer the most suitable geometry (conical, cigar-shaped, or hourglass) for a given sensing priority. Users can input custom values (ranging from 0 to 10) for each criterion by modifying the geometry_simulation.input variables in the script. After computation, the model outputs the recommended geometry along with a fuzzy score and provides a visual representation of the inference result.
 
+## Simulation Models
+
+The COMSOL simulation models were uploaded to accompany this study, providing validated computational setups for nanopore translocation simulations. These models allow users to systematically explore how pore geometry, particle size, particle charge, applied voltage, pressure differential, pore surface charge, pore dimensions, and electrolyte concentration influence the sensing response. By adjusting these parameters, users can generate application-specific simulation data to inform the fuzzy decision tree (FDT) framework for geometry selection. This integration enables tailored pore geometry recommendations based on prioritized sensing objectives, without requiring experimental trials at the initial design stage. The availability of validated simulation models ensures reproducibility and facilitates adaptation of the method to different analytical contexts.
+
 
 
 
