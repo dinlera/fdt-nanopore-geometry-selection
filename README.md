@@ -6,7 +6,7 @@ Systematic method for nanopore geometry optimization using a fuzzy decision tree
 This repository provides the simulation models and fuzzy decision tree (FDT) implementation for optimizing nanopore geometry in resistive pulse sensing applications.
 
 The method was developed as part of the study:
-**"A Decision Tree-Based Method for Selecting Optimal Nanopore Geometry in Resistive Pulse Sensing"**  
+**"Computational Modeling of Biological Nanopore Geometries using Fuzzy Decision Trees"**  
 (Dürdane Yılmaz, Ali Dinler, 2025)
 
 ## Contents
